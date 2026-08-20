@@ -1,4 +1,4 @@
-package com.lht;
+package com.lht.Day01;
 
 public class HelloWorld {
     public static void main(String[] args) {
