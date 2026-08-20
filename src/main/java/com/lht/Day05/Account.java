@@ -30,7 +30,7 @@ public class Account {
             System.out.println("取款金额必须大于0！");
             return;
         }
-        if(money >= balance){
+        if(money > balance){
             System.out.println("取款失败！余额不足，当前余额：" + balance);
             return;
         }
