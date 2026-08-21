@@ -1,6 +1,6 @@
 package com.lht.Day07;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         // 父类引用，指向子类对象 → Java多态核心写法
         Person p1 = new Student("李明",18);

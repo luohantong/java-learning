@@ -8,6 +8,6 @@ public class Teacher extends Person {
 
     @Override
     public void sayHello() {
-        System.out.println("👋我是老师：" + super.getName() + "，今年" + super.getAge() + "岁，我负责教书育人！");
+        System.out.println("👋我是老师：" + getName() + "，今年" + super.getAge() + "岁，我负责教书育人！");
     }
 }
